@@ -1,0 +1,27 @@
+https://blog.csdn.net/weixin_45276056/article/details/110132797
+
+https://blog.csdn.net/qq_44943937/article/details/118657980
+
+一、报错mkdir:
+1.删除.npmrc文件
+一般这种类型的都是默认被隐藏，一定要选择将隐藏取消掉
+2.或者直接用命令清理就行，控制台输入：
+npm cache clean --force
+
+二、报错error:4048
+直接修改node_global和node_cache文件夹的权限：
+右键文件夹，打开属性，切换到安全选项卡
+选择编辑，将没有打钩的位置全部打上钩（即将其它用户的权限设置为与管理员相同），应用即可
+
+验证方式执行cnpm config get registry 或 cnpm config list
+三、'cnpm' 不是内部或外部命令,真正有效解决方法
+https://blog.csdn.net/u011095110/article/details/85296607
+
+四、 在使用npm安装插件时，npm报错ERESOLVE
+在安装插件的命令后面加上    --legacy-peer-deps
+
+npm config set prefix "D:\nodejs\node_global"
+npm config set cache "D:\nodejs\node_cache"
+
+
+

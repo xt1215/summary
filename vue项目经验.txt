@@ -1,0 +1,30 @@
+1、PHPStorm 创建并且运行vue项目
+https://blog.csdn.net/shuilan0066/article/details/99634424
+
+vue-loader
+https://vue-loader.vuejs.org/
+
+Vuex
+https://vuex.vuejs.org/guide/strict.html
+
+vue路由文档
+https://router.vuejs.org/installation.html#direct-download-cdn
+
+6、vue基础指令
+https://www.bilibili.com/video/BV1zT4y1J7oi/?p=5&spm_id_from=pageDriver&vd_source=2cebbea9f3280397171ea1e59f777582
+7、vue.cli
+https://cli.vuejs.org/zh/guide/
+
+vue init webpack 项目名
+
+项目名不要取中文和大写字母。
+Project name（工程名）:回车(含大写字母或者中文会报错)
+Project description（工程介绍）：回车
+Author：作者名 ：回车
+Vue build ==> （是否安装编译器）runtime-compiler、 runtime-only 都是打包方式，第二个效率更高；
+Install vue-router ==> 是否要安装 vue-router，项目中肯定要使用到路由，所以Y 回车；
+Use ESLint to lint your code ==> 是否需要ESLint检测代码，目前我们不需要所以 n 回车；
+Set up unit tests ==> 是否安装 单元测试工具 目前我们不需要 所以 n 回车；
+Setup e2e tests with Nightwatch ==>是否需要端到端测试工具目前我们不需要所以n回车；
+Should we run npm install for you after the project has been created? (recommended) (Use arrow keys)==> 安装依赖npm install
+回车；
